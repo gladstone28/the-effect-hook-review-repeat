@@ -1,11 +1,6 @@
-import './App.css';
+import React from "react";
+import PageTitleFunction from "./PageTitleFunction";
 
-function App() {
-  return (
-    <div className="App">
-<h1>Gladstone's Template</h1>
-    </div>
-  );
+export default function App() {
+  return <PageTitleFunction />;
 }
-
-export default App;
