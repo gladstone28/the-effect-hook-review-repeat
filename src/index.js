@@ -4,4 +4,4 @@ import App from "./App";
 
 ReactDOM.createRoot(
   document.querySelector("#app")
-).rendeR(<App />)
+).render(<App />)
